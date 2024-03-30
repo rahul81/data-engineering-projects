@@ -1,0 +1,4 @@
+kafka-python
+apache-beam
+apache-beam[gcp]
+Faker

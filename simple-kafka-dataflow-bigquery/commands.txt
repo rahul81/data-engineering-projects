@@ -1,0 +1,8 @@
+sudo docker compose -f "kafka-docker-compose.yaml" up -d --build
+
+gcloud init
+gcloud projects list
+gcloud config set project projectid
+gcloud auth application-default login
+
+python data-processor.py --bootstrap_servers VM_IP:9094 --topic geo_data_1 --project sublime-calling-400118 --bq_dataset my_dataset --bq_table_name kafka_geo_data --runner DataflowRunner --region asia-south1 --worker_zone asia-south1-a --staging_location gs://sublime-calling-400118-stg/staging --temp_location gs://sublime-calling-400118-stg/temp --job_name kafka-streaming 

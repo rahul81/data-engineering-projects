@@ -1,0 +1,5 @@
+{
+
+  "KAFKA_TOPIC": "geo_data_local",
+  "KAFKA_HOST": "VM_IP:9094"
+}
