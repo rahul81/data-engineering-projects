@@ -1,5 +1,7 @@
 # CDC Pipeline with Kafka, Debezium, PostgreSQL, and Docker
 
+![Overview](/cdc-pipeline/assets/postgres-cdc.drawio.png)
+
 This repository contains a setup for a **Change Data Capture (CDC) pipeline** using **Kafka**, **Debezium**, **PostgreSQL**, and **Docker**. CDC enables real-time streaming of database changes (inserts, updates, deletes) from PostgreSQL into Kafka topics. This stack can be used for building real-time analytics, data synchronization, and event-driven architectures.
 
 ### Stack Overview:
