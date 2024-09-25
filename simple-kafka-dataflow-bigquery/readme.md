@@ -14,6 +14,7 @@
     - [Authentication to create defualt credentials file](#authentication-to-create-defualt-credentials-file)
   - [Run Dataflow job](#run-dataflow-job)
 
+![Overview](./media/Kafka-dataflow-bigquery.png)
 
 This project is about setting up kafka cluster on GCP vm, sending data to kafka cluster and write it to Big query using Google Dataflow
 
